@@ -2,7 +2,7 @@
   import { onMount } from "svelte";
   let images = $state([]);
   const productId = 1129;
-  const url = `https://konystart.com/start/module/toolcanvas/canvas?p=${productId}&iframe=1`;
+  const url = `https://konystart.com/start/module/toolcanvas/canvas?p=${productId}&iframe=1&nocookie=1`;
 
   onMount(() => {
 
